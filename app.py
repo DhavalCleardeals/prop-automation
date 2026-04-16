@@ -6,7 +6,7 @@ import google.generativeai as genai
 # Yahan apni NAYI key dhyan se paste karein
 API_KEY = "YAHAN_NAYI_KEY_PASTE_KAREIN" 
 
-if API_KEY != "YAHAN_NAYI_KEY_PASTE_KAREIN":
+if API_KEY != "AQ.Ab8RN6KNQHfvUKCe6fF5gPDQ0gzkNv3u11GaBIWw5B3x9O7jug":
     genai.configure(api_key=API_KEY)
 
 st.set_page_config(page_title="Cleardeals Automation", layout="wide")
